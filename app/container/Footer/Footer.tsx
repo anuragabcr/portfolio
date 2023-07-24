@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
+import axios from "axios";
 
 import { images } from "@/app/constants";
 import AppWrap from "@/app/wrapper/AppWrap";
@@ -23,15 +24,48 @@ const Footer = () => {
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleSubmit = () => {
-    setLoading(true);
+  const handleSubmit = async () => {
+    setLoading(false);
+    setFormData({ name: "", email: "", message: "" });
+    alert("Email Sent Successfully");
 
-    const contact = {
-      _type: "contact",
-      name: formData.name,
-      email: formData.email,
-      message: formData.message,
+    const options = {
+      method: "POST",
+      url: "https://rapidprod-sendgrid-v1.p.rapidapi.com/mail/send",
+      headers: {
+        "content-type": "application/json",
+        "X-RapidAPI-Key": process.env.NEXT_PUBLIC_RapidAPI,
+        "X-RapidAPI-Host": "rapidprod-sendgrid-v1.p.rapidapi.com",
+      },
+      data: {
+        personalizations: [
+          {
+            to: [
+              {
+                email: "anuragabcr@gmail.com",
+              },
+            ],
+            subject: formData.name,
+          },
+        ],
+        from: {
+          email: formData.email,
+        },
+        content: [
+          {
+            type: "text/plain",
+            value: formData.message,
+          },
+        ],
+      },
     };
+
+    try {
+      const response = await axios.request(options);
+      console.log(response.data);
+    } catch (error) {
+      console.error(error);
+    }
   };
   return (
     <>
@@ -40,13 +74,13 @@ const Footer = () => {
       <div className="app__footer-cards">
         <div className="app__footer-card ">
           <Image src={images.email} alt="email" />
-          <a href="mailto:hello@micael.com" className="p-text">
+          <a href="mailto:anuragabcr@gmail.com" className="p-text">
             anuragabcr@gmail.com
           </a>
         </div>
         <div className="app__footer-card">
           <Image src={images.mobile} alt="phone" />
-          <a href="tel:+1 (123) 456-7890" className="p-text">
+          <a href="tel:+917970940623" className="p-text">
             7970940623
           </a>
         </div>
