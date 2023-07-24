@@ -87,11 +87,15 @@
         padding: 0.95rem;
         border: none;
         border-radius: 7px;
-        background-color: var(--primary-color);
+        background-color: #f8f2fb;
+        
   
         font-family: var(--font-base);
-        color: var(--secondary-color);
+        color: black;
+        font-weight: 600;
+        font-size: medium;
         outline: none;
+        box-shadow: 4px 0px 2px gray
       }
   
       textarea {
