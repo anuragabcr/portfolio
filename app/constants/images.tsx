@@ -34,6 +34,8 @@ import bolt from "../assets/bolt.png";
 import nb from "../assets/nb.png";
 import skype from "../assets/skype.png";
 import spotify from "../assets/spotify.png";
+import notepad from "../assets/notepad.png";
+import netBanking from "../assets/netBanking.png";
 
 export default {
   email,
@@ -69,4 +71,6 @@ export default {
   nb,
   skype,
   spotify,
+  notepad,
+  netBanking,
 };
