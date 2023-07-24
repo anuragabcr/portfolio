@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 import AppWrap from "@/app/wrapper/AppWrap";
+import MotionWrap from "@/app/wrapper/MotionWrap";
 import { images } from "@/app/constants";
 import "./About.scss";
 
@@ -61,4 +62,4 @@ const About = () => {
   );
 };
 
-export default AppWrap(About, "about", "");
+export default AppWrap(MotionWrap(About, "app__about"), "about", "app_whitebg");
