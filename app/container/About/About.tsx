@@ -11,22 +11,26 @@ import "./About.scss";
 const abouts = [
   {
     title: "Backend Developer",
-    description: "Good understanding of Backend developemtn",
+    description:
+      "Architecting the Digital Backbone: Crafting robust server-side solutions that power seamless user experiences.",
     imgUrl: images.about01,
   },
   {
     title: "Frontend Developer",
-    description: "Good understanding of Backend developemtn",
+    description:
+      "Transforming Ideas into Interactive Realities: Building captivating interfaces with the perfect blend of design and code.",
     imgUrl: images.about02,
   },
   {
     title: "MERN Stack Developer",
-    description: "Good understanding of Backend developemtn",
+    description:
+      "From Concept to Deployment: Leveraging the MERN stack to create dynamic web applications that leave a lasting impact",
     imgUrl: images.about03,
   },
   {
-    title: "Full Stack Developer",
-    description: "Good understanding of Backend developemtn",
+    title: "Python Developer",
+    description:
+      "Unlocking the Power of Python: Unleashing the potential of this versatile language to create efficient, scalable, and elegant solutions",
     imgUrl: images.about04,
   },
 ];

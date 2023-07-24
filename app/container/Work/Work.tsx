@@ -17,7 +17,7 @@ const data = [
     projectLink: "https://anu-notepad.vercel.app/",
     codeLink: "https://github.com/anuragabcr/notepad",
     imgUrl: images.notepad,
-    tags: [""],
+    tags: ["React Js", "Next Js"],
   },
   {
     name: "Project 2",
@@ -26,7 +26,7 @@ const data = [
     projectLink: "https://6vulzv.csb.app/",
     codeLink: "https://github.com/anuragabcr/netBanking",
     imgUrl: images.netBanking,
-    tags: [""],
+    tags: ["React Js"],
   },
 ];
 
@@ -58,7 +58,7 @@ const Work = () => {
       </h2>
 
       <div className="app__work-filter">
-        {["UI/UX", "Web App", "Mobile App", "React JS", "All"].map(
+        {["Python", "React Js", "Mern Stack", "Next Js", "Node js", "All"].map(
           (item, index) => (
             <div
               key={index}

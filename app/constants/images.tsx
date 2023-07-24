@@ -36,6 +36,13 @@ import skype from "../assets/skype.png";
 import spotify from "../assets/spotify.png";
 import notepad from "../assets/notepad.png";
 import netBanking from "../assets/netBanking.png";
+import certi1 from "../assets/certi1.png";
+import certi2 from "../assets/certi2.png";
+import certi3 from "../assets/certi3.png";
+import certi4 from "../assets/certi4.png";
+import certi5 from "../assets/certi5.png";
+import express from "../assets/express.png";
+import next from "../assets/next.png";
 
 export default {
   email,
@@ -73,4 +80,11 @@ export default {
   spotify,
   notepad,
   netBanking,
+  certi1,
+  certi2,
+  certi3,
+  certi4,
+  certi5,
+  express,
+  next,
 };

@@ -11,8 +11,16 @@ import "./Skills.scss";
 
 const skillData = [
   { name: "Python", icon: images.python, bgColor: "" },
-  { name: "react", icon: images.react, bgColor: "" },
-  { name: "typescript", icon: images.typescript, bgColor: "" },
+  { name: "React JS", icon: images.react, bgColor: "" },
+  { name: "NEXT JS", icon: images.next, bgColor: "" },
+  { name: "Typescript", icon: images.typescript, bgColor: "" },
+  { name: "Node JS", icon: images.node, bgColor: "" },
+  { name: "Express", icon: images.express, bgColor: "" },
+  { name: "Redux", icon: images.redux, bgColor: "" },
+  { name: "GitHub", icon: images.git, bgColor: "" },
+  { name: "Graphql", icon: images.graphql, bgColor: "" },
+  { name: "Javascript", icon: images.javascript, bgColor: "" },
+  { name: "SASS", icon: images.sass, bgColor: "" },
 ];
 
 const expData = [
@@ -97,5 +105,5 @@ const Skills = () => {
 export default AppWrap(
   MotionWrap(Skills, "app_skills"),
   "skills",
-  "app_whitebg"
+  "app__whitebg"
 );

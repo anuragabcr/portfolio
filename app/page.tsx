@@ -4,6 +4,7 @@ import Skills from "./container/Skills/Skills";
 import Work from "./container/Work/Work";
 import About from "./container/About/About";
 import Navbar from "./components/Navbar/Navbar";
+import Certificate from "./container/Certificate/Certificate";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Header />
       <About />
       <Work />
+      <Certificate />
       <Skills />
       <Footer />
     </div>

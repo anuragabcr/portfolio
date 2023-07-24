@@ -8,7 +8,7 @@
 :root {
   --font-base: "DM Sans", sans-serif;
 
-  --primary-color: #edf2f8;
+  --primary-color: #d2dff0;
   --secondary-color: #313bac;
   --black-color: #030303;
   --lightGray-color: #e4e4e4;
@@ -30,7 +30,7 @@
 }
 
 .app__whitebg {
-  background-color: var(--white-color);
+  background-color: #e0f5f5;
 }
 
 .app__primarybg {
