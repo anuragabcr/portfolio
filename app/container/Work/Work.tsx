@@ -11,6 +11,16 @@ import "./Work.scss";
 
 const data = [
   {
+    name: "Project 3",
+    title: "Innovista",
+    description:
+      "Innovista is the World's leading community for Creatives to share, grow and get Hired",
+    projectLink: "https://innovista.vercel.app/",
+    codeLink: "https://github.com/anuragabcr/innovista",
+    imgUrl: images.innovista,
+    tags: ["React Js", "Next Js"],
+  },
+  {
     name: "Project 1",
     title: "Notepad",
     description: "Kepps all your notes organized",
