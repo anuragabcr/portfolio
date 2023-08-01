@@ -44,6 +44,7 @@ import certi5 from "../assets/certi5.png";
 import express from "../assets/express.png";
 import next from "../assets/next.png";
 import innovista from "../assets/innovista.png";
+import thinktank from "../assets/thinktank.png";
 
 export default {
   email,
@@ -89,4 +90,5 @@ export default {
   express,
   next,
   innovista,
+  thinktank,
 };

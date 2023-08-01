@@ -11,6 +11,16 @@ import "./Work.scss";
 
 const data = [
   {
+    name: "Project 4",
+    title: "ThinkTank",
+    description:
+      "The Best AI Tool for Conversation, Code Generation, Image Generation, Music generation and Video Generation.",
+    projectLink: "https://thinktank-ashy.vercel.app/",
+    codeLink: "https://github.com/anuragabcr/thinktank",
+    imgUrl: images.thinktank,
+    tags: ["React Js", "Next Js", "Node Js", "MERN Stack"],
+  },
+  {
     name: "Project 3",
     title: "Innovista",
     description:
@@ -18,7 +28,7 @@ const data = [
     projectLink: "https://innovista.vercel.app/",
     codeLink: "https://github.com/anuragabcr/innovista",
     imgUrl: images.innovista,
-    tags: ["React Js", "Next Js"],
+    tags: ["React Js", "Next Js", "Node Js", "MERN Stack"],
   },
   {
     name: "Project 1",
