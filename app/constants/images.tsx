@@ -41,6 +41,8 @@ import certi2 from "../assets/certi2.png";
 import certi3 from "../assets/certi3.png";
 import certi4 from "../assets/certi4.png";
 import certi5 from "../assets/certi5.png";
+import certi6 from "../assets/certi6.png";
+import certi7 from "../assets/certi7.png";
 import express from "../assets/express.png";
 import next from "../assets/next.png";
 import innovista from "../assets/innovista.png";
@@ -91,4 +93,6 @@ export default {
   next,
   innovista,
   thinktank,
+  certi6,
+  certi7,
 };

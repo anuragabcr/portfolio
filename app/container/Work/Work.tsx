@@ -74,11 +74,12 @@ const Work = () => {
   return (
     <>
       <h2 className="head-text">
-        My Creative <span>Portfolio</span> Section
+        My Creative <span>Porjects</span> Section
       </h2>
+      <h4>You can click on the Image to go to Live website or GitHub Page</h4>
 
       <div className="app__work-filter">
-        {["Python", "React Js", "Mern Stack", "Next Js", "Node js", "All"].map(
+        {["Python", "React Js", "MERN Stack", "Next Js", "Node Js", "All"].map(
           (item, index) => (
             <div
               key={index}

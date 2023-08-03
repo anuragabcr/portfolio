@@ -13,6 +13,8 @@ const certiData = [
   images.certi3,
   images.certi4,
   images.certi5,
+  images.certi6,
+  images.certi7,
 ];
 
 const Certificate = () => {
