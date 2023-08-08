@@ -47,6 +47,7 @@ import express from "../assets/express.png";
 import next from "../assets/next.png";
 import innovista from "../assets/innovista.png";
 import thinktank from "../assets/thinktank.png";
+import pulsefusion from "../assets/pulsefusion.png";
 
 export default {
   email,
@@ -95,4 +96,5 @@ export default {
   thinktank,
   certi6,
   certi7,
+  pulsefusion,
 };

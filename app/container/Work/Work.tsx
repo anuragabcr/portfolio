@@ -21,6 +21,16 @@ const data = [
     tags: ["React Js", "Next Js", "Node Js", "MERN Stack"],
   },
   {
+    name: "Project 5",
+    title: "PulseFusion",
+    description:
+      "PulseFusio is the best website which teaches you how to perform different exercise in a perfect form",
+    projectLink: "https://pulsefusion.vercel.app/",
+    codeLink: "https://github.com/anuragabcr/PulseFusion",
+    imgUrl: images.pulsefusion,
+    tags: ["React Js", "Next Js", "Node Js", "MERN Stack"],
+  },
+  {
     name: "Project 3",
     title: "Innovista",
     description:
