@@ -48,6 +48,8 @@ import next from "../assets/next.png";
 import innovista from "../assets/innovista.png";
 import thinktank from "../assets/thinktank.png";
 import pulsefusion from "../assets/pulsefusion.png";
+import fashionForward from "../assets/fashionForward.png";
+import ecomAdmin from "../assets/ecom-admin.png";
 
 export default {
   email,
@@ -97,4 +99,6 @@ export default {
   certi6,
   certi7,
   pulsefusion,
+  fashionForward,
+  ecomAdmin,
 };

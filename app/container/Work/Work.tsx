@@ -21,13 +21,33 @@ const data = [
     tags: ["React Js", "Next Js", "Node Js", "MERN Stack"],
   },
   {
-    name: "Project 5",
-    title: "PulseFusion",
+    name: "Project 4",
+    title: "ThinkTank",
     description:
-      "PulseFusio is the best website which teaches you how to perform different exercise in a perfect form",
-    projectLink: "https://pulsefusion.vercel.app/",
-    codeLink: "https://github.com/anuragabcr/PulseFusion",
-    imgUrl: images.pulsefusion,
+      "The Best AI Tool for Conversation, Code Generation, Image Generation, Music generation and Video Generation.",
+    projectLink: "https://thinktank-ashy.vercel.app/",
+    codeLink: "https://github.com/anuragabcr/thinktank",
+    imgUrl: images.thinktank,
+    tags: ["React Js", "Next Js", "Node Js", "MERN Stack"],
+  },
+  {
+    name: "Project 6",
+    title: "E-Commerce Admin",
+    description:
+      "SAAS application. It is used to provide backend for any e-commerce website meaning you don't have to create a backend for your e-commerce website, you can manage that using this application",
+    projectLink: "https://ecom-administrator.vercel.app/",
+    codeLink: "https://github.com/anuragabcr/ecommerce-admin",
+    imgUrl: images.ecomAdmin,
+    tags: ["React Js", "Next Js", "Node Js", "MERN Stack"],
+  },
+  {
+    name: "Project 7",
+    title: "The Fashion Forward",
+    description:
+      "Fashion Forward is a fashion boutique that offers the latest trends in clothing, footwear, and accessories for men, women, and children",
+    projectLink: "https://fashion-forward-rose.vercel.app/",
+    codeLink: "https://github.com/anuragabcr/FashionForward",
+    imgUrl: images.fashionForward,
     tags: ["React Js", "Next Js", "Node Js", "MERN Stack"],
   },
   {
