@@ -21,16 +21,6 @@ const data = [
     tags: ["React Js", "Next Js", "Node Js", "MERN Stack"],
   },
   {
-    name: "Project 4",
-    title: "ThinkTank",
-    description:
-      "The Best AI Tool for Conversation, Code Generation, Image Generation, Music generation and Video Generation.",
-    projectLink: "https://thinktank-ashy.vercel.app/",
-    codeLink: "https://github.com/anuragabcr/thinktank",
-    imgUrl: images.thinktank,
-    tags: ["React Js", "Next Js", "Node Js", "MERN Stack"],
-  },
-  {
     name: "Project 6",
     title: "E-Commerce Admin",
     description:
@@ -48,6 +38,16 @@ const data = [
     projectLink: "https://fashion-forward-rose.vercel.app/",
     codeLink: "https://github.com/anuragabcr/FashionForward",
     imgUrl: images.fashionForward,
+    tags: ["React Js", "Next Js", "Node Js", "MERN Stack"],
+  },
+  {
+    name: "Project 5",
+    title: "Pulse Fusion",
+    description:
+      "At Pulse Fusion Gym, we redefine fitness, blending cutting-edge technology with a passion for health and wellness",
+    projectLink: "https://pulsefusion.vercel.app/",
+    codeLink: "https://github.com/anuragabcr/PulseFusion",
+    imgUrl: images.thinktank,
     tags: ["React Js", "Next Js", "Node Js", "MERN Stack"],
   },
   {
