@@ -11,6 +11,16 @@ import "./Work.scss";
 
 const data = [
   {
+    name: "Project 8",
+    title: "SmartBuy",
+    description:
+      "Our Amazon Price Tracker is a powerful web application designed to help savvy shoppers stay informed about price changes on their favorite Amazon products.",
+    projectLink: "https://smart-buy-alpha.vercel.app/",
+    codeLink: "https://github.com/anuragabcr/smart-buy",
+    imgUrl: images.smartBuy,
+    tags: ["React Js", "Next Js", "Node Js", "MERN Stack", "CRON"],
+  },
+  {
     name: "Project 4",
     title: "ThinkTank",
     description:
@@ -47,7 +57,7 @@ const data = [
       "At Pulse Fusion Gym, we redefine fitness, blending cutting-edge technology with a passion for health and wellness",
     projectLink: "https://pulsefusion.vercel.app/",
     codeLink: "https://github.com/anuragabcr/PulseFusion",
-    imgUrl: images.thinktank,
+    imgUrl: images.pulsefusion,
     tags: ["React Js", "Next Js", "Node Js", "MERN Stack"],
   },
   {

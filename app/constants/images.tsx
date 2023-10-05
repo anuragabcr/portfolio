@@ -50,6 +50,7 @@ import thinktank from "../assets/thinktank.png";
 import pulsefusion from "../assets/pulsefusion.png";
 import fashionForward from "../assets/fashionForward.png";
 import ecomAdmin from "../assets/ecom-admin.png";
+import smartBuy from "../assets/smartbuy.png";
 
 export default {
   email,
@@ -101,4 +102,5 @@ export default {
   pulsefusion,
   fashionForward,
   ecomAdmin,
+  smartBuy,
 };
