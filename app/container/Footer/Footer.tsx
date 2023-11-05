@@ -25,47 +25,22 @@ const Footer = () => {
   };
 
   const handleSubmit = async () => {
-    setLoading(false);
-    setFormData({ name: "", email: "", message: "" });
-    alert("Email Sent Successfully");
-
-    const options = {
-      method: "POST",
-      url: "https://rapidprod-sendgrid-v1.p.rapidapi.com/mail/send",
-      headers: {
-        "content-type": "application/json",
-        "X-RapidAPI-Key": process.env.NEXT_PUBLIC_RapidAPI,
-        "X-RapidAPI-Host": "rapidprod-sendgrid-v1.p.rapidapi.com",
-      },
-      data: {
-        personalizations: [
-          {
-            to: [
-              {
-                email: "anuragabcr@gmail.com",
-              },
-            ],
-            subject: formData.name,
-          },
-        ],
-        from: {
-          email: formData.email,
-        },
-        content: [
-          {
-            type: "text/plain",
-            value: formData.message,
-          },
-        ],
-      },
-    };
+    setLoading(true);
 
     try {
-      const response = await axios.request(options);
+      const response = await axios.post("/api/email", {
+        subject: formData.name,
+        email: formData.email,
+        message: formData.message,
+      });
       console.log(response.data);
+      setFormData({ name: "", email: "", message: "" });
+      alert("Email Sent Successfully");
     } catch (error) {
       console.error(error);
+      alert("Email Failed");
     }
+    setLoading(false);
   };
   return (
     <>
@@ -116,7 +91,12 @@ const Footer = () => {
               onChange={handleChangeInput}
             />
           </div>
-          <button type="button" className="p-text" onClick={handleSubmit}>
+          <button
+            type="button"
+            className="p-text"
+            onClick={handleSubmit}
+            disabled={loading}
+          >
             {!loading ? "Send Message" : "Sending..."}
           </button>
         </div>
